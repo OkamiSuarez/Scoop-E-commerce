@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <script src="https://kit.fontawesome.com/71a7acdc25.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap" rel="stylesheet">
+  <title>Suplementos</title>
+  <link rel="stylesheet" href="style\style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="headerScoop">SCOOP</h1>
+    <button id="cesta-carrito"><i class="fas fa-shopping-cart"><span id="contador-carrito">0</span></i><i
+        class="fa-duotone fa-cart-shopping-fast"></i></button>
+
+  </header>
+
+
+
+  <form id="formInicioSesion">
+    <label for="inicioSesion">Ingrese su correo:</label>
+    <input type="email" id="correoVerificacion" class="slider" required>
+    <br>
+    <label for="inicioSesion">Ingrese su contraseña:</label>
+    <input type="password" id="contraseñaVerificacion" class="slider" required>
+    <span id="cambiarVistaContraseña" onclick="cambiarVistaContraseña()">Ver contraseña</span>
+    <br>
+    <br>
+    <input type="submit" value="Iniciar Sesion" id="botonInicioSesion" onclick="verificarLogin()">
+    <br>
+    <a href="registro\registro.html" class="botonForm"> Registrarse </a>
+
+  </form>
+
+
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="column">
+      <div id="producto-contenedor">
+        <!-- Este es el stock -->
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row2">
+    <div class="column2">
+      <div id="carrito">
+        <!-- Este es el carrito de cards comprados -->
+      </div>
+    </div>
+  </div>
+
+
+  <div id="totales">
+  </div>
+
+  <br>
+
+
+
+  <div class="modal-contenedor">
+    <div class="modal-carrito">
+      <h3>Carrito</h3>
+      <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+      <div id="carrito-contenedor">
+
+      </div>
+      <br>
+      <p class="precioProducto"></p>
+      <p id="precioTotalModal"></p>
+    </div>
+  </div>
+
+<footer class="footerCerrarSesion" id="footerCerrarSesion">
+    <button type="button" class="botonCerrarSesion" onclick="cerrarSesion()" id="botonCerrarSesion">Cerrar sesion</button>
+</footer>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="scripts\modal.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="scripts\main.js"></script>
+
+</body>
+
+</html>

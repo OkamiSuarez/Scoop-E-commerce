@@ -1,0 +1,84 @@
+{
+    "productos":[
+        {
+            "id" : 1,
+            "nombre" : "Proteina",
+            "cantidad" : 0,
+            "marca" : "Optimum Nutrition",
+            "precio" : 900,
+            "img": "imgs/wheyProtein.png",
+            "descripcion" : "Complemento al desarrollo del músculo de la mano de un entrenamiento bien focalizado, puede acelerar el proceso de recuperación.",
+            "video" : "https://www.youtube.com/watch?v=Vie8HUL8ivE"
+        },
+        {
+            "id" : 2,
+            "nombre" : "BCAAS",
+            "cantidad" : 0,
+            "marca" : "Optimum Nutrition",
+            "img": "imgs/BCAA.png",
+            "precio" : 500,
+            "descripcion" : "Promueve la recuperación mediante la Leucina, Isoleucina y Valina",
+            "video" : "https://www.youtube.com/watch?v=SDRypbKUFaQ"
+        },
+        {
+            "id" : 3,
+            "nombre" : "Creatina",
+            "cantidad" : 0,
+            "marca" : "optimum Nutrition",
+            "img": "imgs/creatinaOn.png",
+            "precio" :  450,
+            "descripcion" : "Aumenta el rendimiento, mejora la recuperación y los procesos cognitivos.",
+            "video" : "https://www.youtube.com/watch?v=1vM_9FCtbvA"
+        },
+        {
+            "id" : 4,
+            "nombre" : "Cafeína",
+            "cantidad" : 0,
+            "marca" : "GAT",
+            "img": "imgs/cafeinaGat.png",
+            "precio" : 300,
+            "descripcion" : "Aumenta el rendimiento, promueve los procesos de quema de grasa, prolonga la aparición de la fatiga y ayuda a la atención.",
+            "video" : "https://www.youtube.com/watch?v=q7mWQnGQ7Vo"
+        },
+        {
+            "id" : 5,
+            "nombre" : "EAAS",
+            "cantidad" : 0,
+            "marca" : "GAT",
+            "img": "imgs/EaasHydro.png",
+            "precio" : 550,
+            "descripcion" : "Promueve la recuperación con todos los aminoacidos de cadena ramificada.",
+            "video" : "https://www.youtube.com/watch?v=XAKl218QlKM"
+        },
+        {
+            "id" : 6,
+            "nombre" : "Combo Musculo",
+            "cantidad" : 0,
+            "marca" : "Optimum Nutrition y GAT",
+            "img": "imgs/cMusculo.png",
+            "precio" : 1500,
+            "descripcion" : "Incluye proteina, creatina y cafeina. Ideal para acelerar el desarrollo del músculo mediante ejercicios mas intensos y poder rendir mas.",
+            "video" : "https://www.youtube.com/watch?v=TK3wf-LjDG8"
+        },
+        {
+            "id" : 7,
+            "nombre" : "Combo Potencia",
+            "cantidad" : 0,
+            "marca" : "Optimum Nutrition y GAT",
+            "img": "imgs/cPotencia.png",
+            "precio" : 1100,
+            "descripcion" : "Incluye Creatina, BCAA, Cafeina. Perfecto para buscar mas rendimiento y recuperación acelerada.",
+            "video" : "https://www.youtube.com/watch?v=yCFmBdK0VHg"
+        },
+        {
+            "id" : 8,
+            "nombre" : "Combo Breaker",
+            "cantidad" : 0,
+            "marca" : "Optimum Nutrition y GAT",
+            "img": "imgs/cBreaker.png",
+            "precio" : 2000,
+            "descripcion" : "Incluye proteina, creatina, cafeina y EAAS, un combo perfecto para entrenamientos dobles o con mas frecuencia",
+            "video" : "https://www.youtube.com/watch?v=NwqUwzCyuR0"
+        }
+    ]
+}

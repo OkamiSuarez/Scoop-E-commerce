@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="headerScoop">SCOOP</h1>
+        <button id="cesta-carrito"><i class="fas fa-shopping-cart"><span id="contador-carrito">0</span></i><i
+                class="fa-duotone fa-cart-shopping-fast"></i></button>
+
+    </header>
+
+    <div class="formRegistro" id="formRegistro">
+        <form id="formRegistro">
+            <label for="registro">Ingrese su nombre:</label>
+            <input type="text" id="nombre" class="slider" required>
+            <br>
+            <label for="registro">Ingrese su direccion:</label>
+            <input type="text" id="direccion" class="slider" required>
+            <br>
+            <label for="registro">Ingrese su correo:</label>
+            <input type="email" id="correo" class="slider" required>
+            <br>
+            <label for="registro">Ingrese su contraseña:</label>
+            <input type="text" id="contraseña" class="slider" required>
+            <br>
+            <label for="registro">Ingrese su teléfono</label>
+            <input type="number" id="telefono" class="slider" required>
+            <br>
+            <label for="registro" id="solicitud">Porfavor revisa que todos los datos sean correctos</label>
+            <br>
+            <br>
+            <input type="submit" value="Registrarme" class="botonForm" id="registroDatosUsuario">
+            <br>
+            <a href="../index.html" class="botonForm"> Regresar al inicio de sesion </a>
+        </form>
+    </div>`
+
+
+    <script src="../scripts/registro.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../scripts/main.js"></script>
+</body>
+
+</html>
